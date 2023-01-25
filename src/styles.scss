@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+@import "ngx-chart/styles.scss";
+
+.ngx-pie .chart-wrapper path:hover {
+  cursor: pointer;
+  transform-origin: center;
+  transform: scale(1.05);
+}
+
+.ngx-donut .chart-wrapper path:hover {
+  cursor: pointer;
+  stroke-width: 55px;
+}
